@@ -1,8 +1,8 @@
 import urllib.parse
 import requests 
 
-number = input("Enter Number":)  # Replace with the actual mobile number
-message = input("Enter Massage")# Replace with the actual message
+num = input("Enter Number":)  # Replace with the actual mobile number
+msg = input("Enter Massage")# Replace with the actual message
 
 base_url = "https://mojibrsm.com/sms-api/sms-api.php?key=FREE"
 params = {
